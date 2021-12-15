@@ -8,7 +8,7 @@
 	"maxLimit": 100,
 	"ownerList": ["573508770421@s.whatsapp.net"],
 	"apiUrl": "https://api.zeks.me",
-	"imgUrl": "https://github.com/ianvanh/MiniBot/blob/master/public/MiniBot.png",
+	"imgUrl": "https://raw.githubusercontent.com/ianvanh/MiniBot/master/public/MiniBot.png",
 	"pack": "MiniBot",
 	"author": "IAN"
 }

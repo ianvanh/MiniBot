@@ -35,8 +35,6 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ianvanh/MiniBot/)
 
-[![Run on Repl.it](https://repl.it/badge/github/DarkBox1522/MiniBot)](https://repl.it/github/ianvanh/MiniBot)
-
 
 ## Install ⬇️
 ```bash
@@ -52,10 +50,9 @@
 > apt-get install -y nodejs git
 ```
 
-<!--
-#### Cambiar datos en: `config.json` 
-##### Register in <b>[#](https://#)</b> to get apiKey then enter to key in `config.json`
--->
+#### Colocar sus datos en: `config.json` 
+##### Registrarse en <b>[#](https://zeks.me)</b> para obtener su APIKEY
+
 
 ## Start ✅
 ```bash

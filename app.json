@@ -2,6 +2,6 @@
   "name": "MiniBot",
   "description": "Creado por Ian",
   "repository": "https://github.com/ianvanh/MiniBot",
-  "logo": "#",
+  "logo": "https://raw.githubusercontent.com/ianvanh/MiniBot/master/public/MiniBot.png",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"]
 }

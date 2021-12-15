@@ -1,0 +1,14 @@
+{	
+	"prefix": "#",
+	"version": "1.0.0",
+	"defaultSessionName": "MiniBot-SS",
+	"zeksKey": "xMYCfgmBHH7dR6S87KJet1zUXa1",
+	"autoRead": true,
+	"self": true,
+	"maxLimit": 100,
+	"ownerList": ["573508770421@s.whatsapp.net"],
+	"apiUrl": "https://api.zeks.me",
+	"imgUrl": "https://github.com/ianvanh.png?size=150",
+	"pack": "MiniBot",
+	"author": "IAN"
+}

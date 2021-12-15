@@ -1,0 +1,20 @@
+<title>MiniBot</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="/socket.io/socket.io.js"></script>
+<a href="/configs">Click aca para cambiar la configuración</a>
+<h1 id="sts">Escanea el QR</h1>
+<img id="qr"></img>
+<script type="text/javascript">
+   const socket = io();
+   socket.on("qr", (qr) => {
+   if (!qr) return document.getElementById("sts").innerText="Conexiøn exitosa!"
+   document.getElementById("qr").src= qr;
+   })
+   socket.on("con", (d) => {
+   document.getElementById("sts").innerText=`connected to : ${d.jid}`
+   document.getElementById("qr").src= "/y.png";
+   })
+   socket.on("close", (d) => {
+   document.getElementById("sts").innerText="Desconnectado";
+   document.getElementById("qr").src= null})
+</script>

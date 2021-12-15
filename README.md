@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://github.com/ianvanh/MiniBot/blob/master/public/MiniBot.png" alt="Ian" width="170" />
+<img src="https://raw.githubusercontent.com/ianvanh/MiniBot/master/public/MiniBot.png" alt="Ian" width="170" />
 
 </div>
 

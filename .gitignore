@@ -1,5 +1,7 @@
 _assets
 
+node_modules
+
 MiniBot-SS.json
 
 test.js

@@ -3,12 +3,5 @@
   "description": "Creado por Ian",
   "logo": "https://raw.githubusercontent.com/ianvanh/MiniBot/master/public/MiniBot.png",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation"],
-  "repository": "https://github.com/ianvanh/MiniBot",
-  "stack": "container",
-  "env": {
-        "MiniBot-SS": {
-            "description": "Ponga aca su codigo de SESSION obtenida de qr.js.",
-            "required": true
-        }
-  }
+  "repository": "https://github.com/ianvanh/MiniBot"
 }

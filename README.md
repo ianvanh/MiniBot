@@ -51,7 +51,7 @@
 ```
 
 #### Colocar sus datos en: `config.json` 
-##### Registrarse en <b>[#](https://zeks.me)</b> para obtener su APIKEY
+##### Registrarse en <b>[ACA](https://zeks.me)</b> para obtener su APIKEY
 
 
 ## Start ✅

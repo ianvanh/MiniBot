@@ -14,7 +14,7 @@ const time = moment.tz('America/Bogota').format('HH:mm:ss')
 const dbot = require('dbot-api')
 const yts = require('yt-search')
 const ggle = require('google-it')
-var { yta, ytv, Ttdl, igDownloader } = require('./lib/newdown.js')
+var { ytMp4, ytMp3, ytPlay, Ttdl, igDownloader } = require('./lib/newdown.js')
 
 
 module.exports = handle = (client, Client) => {

@@ -452,7 +452,7 @@ try {
             //if(isLimit(data.sender)) return data.reply(mess.limit)
             if(data.body == "") return data.reply(`*Necesito el link.*\nEjemplo: ${data.prefix}video https://youtu.be/Z6L4u2i97Rw`)
             data.reply(mess.wait)
-            res = await ytv(data.body)
+            res = await ytMp4(data.body)
             ytm = res
             if(Number(ytm.size.split(' MB')[0]) >= 99.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Link* : ${ytm.result}\n\n🤖 Descarga no permitida por whatsapp.\nDescargalo manual.`, data.message)
             Client.sendFileFromUrl(data.from, `${ytm.result}`, 'video.mp4', 'Hecho por *MiniBot*', data.message)
@@ -466,7 +466,7 @@ try {
            //if(isLimit(data.sender)) return data.reply(mess.limit)
             if(data.body == "") return data.reply(`*Necesito el link.*\nEjemplo: ${data.prefix}song https://youtu.be/Z6L4u2i97Rw`)
             data.reply(mess.wait)
-            res = await yta(data.body)
+            res = await ytMp3(data.body)
             ytm = res
             if(Number(ytm.size.split(' MB')[0]) >= 99.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Link* : ${ytm.result}\n\n🤖 Descarga no permitida por whatsapp.\nDescargalo manual.`, data.message)
             Client.sendFileFromUrl(data.from, `${ytm.result}`, 'Download.mp3', ``, data.message)

@@ -7,8 +7,8 @@
     "lib": "lib"
   },
   "dependencies": {
-    "@adiwajshing/baileys": "^3.5.2",
-    "axios": "^0.21.4",
+    "@adiwajshing/baileys": "^3.5.3",
+    "axios": "^0.26.0",
     "cheerio": "^1.0.0-rc.10",
     "child_process": "^1.0.2",
     "dbot-api": "^1.2.1",
@@ -18,15 +18,15 @@
     "g-i-s": "^2.1.6",
     "google-it": "^1.6.2",
     "mime-types": "^2.1.31",
-    "moment-timezone": "^0.5.33",
+    "moment-timezone": "^0.5.34",
     "node-cron": "^3.0.0",
     "node-fetch": "^2.6.1",
     "qrcode": "^1.4.4",
     "socket.io": "^4.1.2",
     "spinnies": "^0.5.1",
-    "yargs": "^17.0.1",
-    "yt-search": "^2.10.2",
-    "ytdl-core": "^4.9.1"
+    "yargs": "^17.3.1",
+    "yt-search": "^2.10.3",
+    "ytdl-core": "^4.10.1"
   },
   "engines": {
     "node": "16.6.1"

@@ -454,8 +454,8 @@ try {
             data.reply(mess.wait)
             res = await ytv(data.body)
             ytm = res
-            if(Number(ytm.size.split(' MB')[0]) >= 99.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Link* : ${ytm.link}\n\n🤖 Descarga no permitida por whatsapp.\nDescargalo manual.`, data.message)
-            Client.sendFileFromUrl(data.from, `${ytm.link}`, 'video.mp4', 'Hecho por *MiniBot*', data.message)
+            if(Number(ytm.size.split(' MB')[0]) >= 99.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Link* : ${ytm.result}\n\n🤖 Descarga no permitida por whatsapp.\nDescargalo manual.`, data.message)
+            Client.sendFileFromUrl(data.from, `${ytm.result}`, 'video.mp4', 'Hecho por *MiniBot*', data.message)
         } catch (e) {
             data.reply('🤖 Parece que tenemos un error.')
         }
@@ -468,8 +468,8 @@ try {
             data.reply(mess.wait)
             res = await yta(data.body)
             ytm = res
-            if(Number(ytm.size.split(' MB')[0]) >= 99.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Link* : ${ytm.link}\n\n🤖 Descarga no permitida por whatsapp.\nDescargalo manual.`, data.message)
-            Client.sendFileFromUrl(data.from, `${ytm.link}`, 'Download.mp3', ``, data.message)
+            if(Number(ytm.size.split(' MB')[0]) >= 99.00) return Client.sendFileFromUrl(data.from, `${ytm.thumb}`, 'thumb.jpg', `*Link* : ${ytm.result}\n\n🤖 Descarga no permitida por whatsapp.\nDescargalo manual.`, data.message)
+            Client.sendFileFromUrl(data.from, `${ytm.result}`, 'Download.mp3', ``, data.message)
         } catch {
             data.reply('🤖 Parece que tenemos un error.')
         }
